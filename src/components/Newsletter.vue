@@ -9,10 +9,11 @@
             <div className="mt-6 lg:mt-0 md:flex-1 bg-white p-1 rounded-full w-full max-w-lg">
                 <form className="flex w-full md:w-auto">
                     <input placeholder="Wpisz Twój email" type="email" name="email"
-                        class="w-full lg:text-lg md:text-base text-sm px-4 bg-transparent placeholder-gray-150 focus:outline-none py-3 rounded-full" />
+                        class="w-full lg:text-lg md:text-base text-sm px-4 bg-transparent placeholder-gray-150 focus:outline-none py-2.5 rounded-full" />
                     <button type="submit"
-                        className="flex items-center justify-center rounded-full whitespace-nowrap border border-transparent bg-primary-100 px-5 py-3 tracking-wide lg:text-lg md:text-base text-sm uppercase font-bold text-secondary-400 focus:outline-none">
-                        Zapisz się >
+                        className="flex items-center justify-center rounded-full whitespace-nowrap border border-transparent bg-primary-100 px-8 py-2.5 tracking-wide lg:text-lg md:text-base text-sm uppercase font-bold text-secondary-400 focus:outline-none">
+                        Zapisz się
+                        <img src="../assets/arrow-right.png" alt="arrow-right" class="w-5 ml-1" />
                     </button>
                 </form>
             </div>
