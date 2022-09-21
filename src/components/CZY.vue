@@ -1,7 +1,7 @@
 <template>
-    <div class="relative bg-gray-100 pb-20 rounded-tr-[50%]">
+    <div class="relative bg-gray-200 pb-20 rounded-tr-[50%]">
         <div className="max-w-6xl w-full mx-auto flex lg:flex-row flex-col items-start justify-between">
-            <div class="max-w-3xl md:px-12 px-5 lg:py-20 md:py-12 py-10 relative z-30">
+            <div class="max-w-3xl md:px-20 px-5 lg:py-20 md:py-12 py-10 relative z-30">
                 <p class="text-xl pb-8 uppercase text-gray-600">Czy wiesz że</p>
                 <p
                     className="text-primary-100 lg:text-4xl md:text-3xl text-2xl tracking-wide font-semibold lg:leading-10">

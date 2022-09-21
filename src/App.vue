@@ -14,6 +14,7 @@
         w terapii wielu chorób.</p>
     </div>
     <CZY />
+    <Tabs />
     <Newsletter />
     <Contact />
     <Footer />
@@ -26,4 +27,5 @@ import Contact from "./components/Contact.vue";
 import Newsletter from "./components/Newsletter.vue";
 import HeaderSection from "./components/HeaderSection.vue";
 import CZY from "./components/CZY.vue";
+import Tabs from "./components/Tabs.vue";
 </script>
