@@ -1,7 +1,7 @@
 <template>
     <div class="relative">
-        <div class="md:px-12 px-5 md:py-20 py-4 max-w-6xl w-full mx-auto">
-            <img src="../assets/contact.png" alt="circle" class="absolute right-0 w-44 top-64 translate-y-1/2" />
+        <div class="md:px-12 px-5 md:py-20 py-16 max-w-6xl w-full mx-auto">
+            <img src="../assets/contact.png" alt="circle" class="hidden xl:block absolute right-0 w-44 top-64 translate-y-1/2" />
             <h1 class="text-secondary-400 md:text-6xl text-5xl tracking-wide text-center font-bold">Kontakt</h1>
             <p class="text-center text-gray-600 md:text-xl text-base max-w-4xl md:p-8 mx-auto pt-5">Lorem ipsum dolor
                 sit

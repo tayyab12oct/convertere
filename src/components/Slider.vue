@@ -1,5 +1,5 @@
 <template>
-    <Carousel :itemsToShow="2" :wrapAround="true">
+    <Carousel :wrapAround="true" :breakpoints="breakpoints">
         <template #addons>
             <Pagination />
         </template>
@@ -15,15 +15,29 @@
 <script setup>
 import { Carousel, Pagination, Slide } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
+const breakpoints = {
+    1280: {
+        itemsToShow: 2,
+    },
+    1024: {
+        itemsToShow: 1.7,
+    },
+    768: {
+        itemsToShow: 1.15,
+    },
+    200: {
+        itemsToShow: 1.01,
+    },
+}
 </script>
   
 <style scope>
 .carousel__item {
-    height: 535px;
+    @apply xl:h-[535px] md:h-[400px] h-[450px];
 }
 
 .carousel__slide {
-    @apply px-8 h-[65vh] mt-14;
+    @apply px-8 xl:h-[65vh] lg:h-[55vh] sm:h-[60vh] md:h-[55vh] mt-14;
 }
 
 .carousel__pagination {
@@ -31,8 +45,9 @@ import 'vue3-carousel/dist/carousel.css';
 }
 
 .carousel__pagination-item .carousel__pagination-button {
-    @apply bg-gray-700 w-18 mx-4
+    @apply bg-gray-700 md:w-18 w-12 sm:mx-4 mx-1.5
 }
+
 .carousel__pagination-item .carousel__pagination-button--active {
     @apply bg-secondary-100
 }

@@ -1,10 +1,10 @@
 <template>
   <footer class="bg-primary-100">
-    <div class="md:px-12 px-5 md:py-8 py-4 max-w-6xl w-full mx-auto text-gray-400">
+    <div class="md:px-12 px-5 md:py-8 pb-4 pt-10 max-w-6xl w-full mx-auto text-gray-400">
       <div class="grid lg:grid-cols-2 md:grid-cols-3 py-3">
-        <div class="md:col-span-2 lg:col-span-1 grid md:grid-rows-5 grid-cols-2 md:grid-flow-col gap-3 pb-8">
+        <div class="md:col-span-2 lg:col-span-1 grid md:grid-rows-5 grid-cols-2 md:grid-flow-col gap-3 md:pb-8">
           <p class="font-bold text-sm">Ważne Informacje</p>
-          <a v-for="v in navs" :key="v" :href="v.href"
+          <a v-for="v in navs" :key="v" :href="v.href" :class="v.class"
             class="text-sm font-normal text-gray-400 hover:text-secondary-100 hover:underline transition-all">
             {{v.name}}
           </a>
@@ -36,7 +36,7 @@ const navs = [
     name: 'Cookies',
     href: '#',
   },
-  {},
+  { class: "hidden md:block" },
   {
     name: 'Normobaria',
     href: '#',

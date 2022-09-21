@@ -1,27 +1,27 @@
 <template>
-    <div class="relative bg-gray-200 pb-20 rounded-tr-[50%]">
+    <div class="relative bg-gray-200 lg:pb-20 rounded-tr-[50%]">
         <div className="max-w-6xl w-full mx-auto flex lg:flex-row flex-col items-start justify-between">
-            <div class="max-w-3xl md:px-20 px-5 lg:py-20 md:py-12 py-10 relative z-30">
-                <p class="text-xl pb-8 uppercase text-gray-600">Czy wiesz że</p>
+            <div class="max-w-3xl md:px-20 px-5 lg:py-20 md:pb-24 py-20 relative z-30">
+                <p class="md:text-xl text-lg pb-8 uppercase text-gray-600">Czy wiesz że</p>
                 <p
-                    className="text-primary-100 lg:text-4xl md:text-3xl text-2xl tracking-wide font-semibold lg:leading-10">
+                    className="text-primary-100 lg:text-4xl md:text-3xl text-xl tracking-wide font-semibold lg:leading-10 lg:pr-10 xl:pr-0">
                     W komorze normobarycznej panuje podwyższone ciśnienie 1500 hpa, dla porównania ciśnienie w
                     atmosferze ziemskiej wynosi około 1000 hpa.
                 </p>
-                <p className="text-primary-100 lg:text-4xl md:text-3xl text-2xl tracking-wide font-semibold pt-18">
+                <p className="text-primary-100 lg:text-4xl md:text-3xl text-xl tracking-wide font-semibold md:pt-18 pt-12">
                     Normobaria w liczbach:
                 </p>
-                <div class="grid grid-cols-2 gap-18 pt-14">
+                <div class="grid md:grid-cols-2 gap-18 pt-14">
                     <div class="" v-for="v in data" :key="v">
-                        <p class="text-xl pb-2 text-gray-600">{{v.title}}</p>
-                        <p class="text-6xl font-bold text-secondary-300 pb-5">{{v.span}}</p>
+                        <p class="md:text-xl text-lg pb-2 text-gray-600">{{v.title}}</p>
+                        <p class="md:text-6xl text-4xl font-bold text-secondary-300 pb-5">{{v.span}}</p>
                         <div class="bg-primary-100 w-full h-3">
                             <div class="bg-secondary-300 h-full" :style="{width: v.width}"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="-mr-56 -ml-20 -mt-20 relative z-30">
+            <div className="xl:-mr-56 -ml-20 -mt-20 relative z-30 hidden lg:block">
                 <img src="../assets/czy.jpeg" class="" alt="HeaderImg">
             </div>
         </div>
