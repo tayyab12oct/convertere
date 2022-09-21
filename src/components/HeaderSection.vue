@@ -2,7 +2,8 @@
     <div class="relative bg-secondary-400 pb-20">
         <div className="max-w-6xl w-full mx-auto flex lg:flex-row flex-col items-center justify-between">
             <div class="max-w-xl md:px-12 px-5 lg:py-20 md:py-12 py-10 relative z-30">
-                <p className="text-primary-100 lg:text-[3.85rem] lg:leading-[4.5rem] md:text-3xl text-2xl tracking-wider font-bold pr-5">
+                <p
+                    className="text-primary-100 lg:text-[3.85rem] lg:leading-[4.5rem] md:text-3xl text-2xl tracking-wider font-bold pr-5">
                     Normobaria.
                     Co to jest?
                 </p>
