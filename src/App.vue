@@ -15,6 +15,7 @@
     </div>
     <CZY />
     <Tabs />
+    <div class="relative z-30"><Slider /></div>
     <Newsletter />
     <Contact />
     <Footer />
@@ -28,4 +29,5 @@ import Newsletter from "./components/Newsletter.vue";
 import HeaderSection from "./components/HeaderSection.vue";
 import CZY from "./components/CZY.vue";
 import Tabs from "./components/Tabs.vue";
+import Slider from "./components/Slider.vue";
 </script>
