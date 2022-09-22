@@ -6,29 +6,29 @@
             <thead>
                 <tr>
                     <th scope="col"
-                        class="md:py-3.5 py-2 pl-0 pr-3 text-left text-sm md:text-base font-semibold text-secondary-400">
+                        class="md:py-3.5 py-2 pl-0 pr-3 text-left text-sm md:text-lg font-semibold text-secondary-400">
                         Ilość
                         sesji
                     </th>
                     <th scope="col"
-                        class="hidden md:py-3.5 py-2 px-3 text-right text-sm md:text-base font-semibold text-secondary-400 sm:table-cell">
+                        class="hidden md:py-3.5 py-2 px-3 text-right text-sm md:text-lg font-semibold text-secondary-400 sm:table-cell">
                         Czas
                     </th>
                     <th scope="col"
-                        class="md:py-3.5 py-2 pl-3 pr-0 text-right text-sm md:text-base font-semibold text-secondary-400">
+                        class="md:py-3.5 py-2 pl-3 pr-0 text-right text-sm md:text-lg font-semibold text-secondary-400">
                         Cena
                     </th>
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="project in projects" :key="project.id" class="border-b border-gray-400">
-                    <td class="py-4 pl-0 pr-3 text-sm md:text-base lg:pl-4">
+                <tr v-for="project in projects" :key="project.id" class="border-b-2 border-gray-400">
+                    <td class="py-3.5 pl-0 pr-3 text-sm md:text-lg lg:pl-4">
                         <div class="font-medium text-gray-600"><span class="pr-2">{{project.id}}</span> {{
                         project.name }}</div>
                     </td>
-                    <td class="hidden py-4 px-3 text-right text-sm md:text-base text-gray-600 sm:table-cell">{{
+                    <td class="hidden py-3.5 px-3 text-right text-sm md:text-lg text-gray-600 sm:table-cell">{{
                     project.czas }}</td>
-                    <td class="py-4 pl-3 text-right text-sm md:text-base text-gray-600">{{
+                    <td class="py-3.5 pl-3 text-right text-sm md:text-lg text-gray-600">{{
                     project.cena }}</td>
                 </tr>
             </tbody>

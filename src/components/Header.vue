@@ -13,7 +13,8 @@
       </div>
       <PopoverGroup as="nav" class="hidden lg:space-x-10 space-x-8 md:flex">
         <a v-for="v in navs" :key="v" :href="v.href"
-          class="lg:text-lg md:text-base font-bold text-primary-100 border-b-2 border-transparent focus:border-secondary-100 transition-all hover:border-secondary-100">
+          class="lg:text-lg md:text-base font-bold text-primary-100 border-b-2.5 border-transparent focus:border-secondary-100 transition-all hover:border-secondary-100"
+          :class="v.active? 'border-secondary-100': ''">
           {{v.name}}
         </a>
       </PopoverGroup>
@@ -68,6 +69,7 @@ const navs = [
   {
     name: 'Korzyści',
     href: '#',
+    active: true
   },
   {
     name: 'Przygotowanie',

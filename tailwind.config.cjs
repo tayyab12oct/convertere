@@ -24,7 +24,7 @@ module.exports = {
         300: '#ccd32f',
         400: '#cbd22f',
         500: '#E6E897',
-        600:"#e5e897"
+        600: '#e5e897',
       },
       black: colors.black,
       white: colors.white,
@@ -37,8 +37,10 @@ module.exports = {
         250: '#F5F5F5',
         300: '#E0E0E1',
         400: '#e1e1e1',
+        450: '#434343',
         600: '#606060',
         700: '#788a9b',
+        800:"#d1d1d1"
       },
       zinc: colors.zinc,
       neutral: colors.neutral,
@@ -237,6 +239,7 @@ module.exports = {
       DEFAULT: '1px',
       0: '0px',
       2: '2px',
+      2.5: '2.5px',
       4: '4px',
       8: '8px',
     },

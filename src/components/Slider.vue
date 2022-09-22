@@ -8,7 +8,6 @@
                 <img src="../assets/slider/mid.png" class="w-full h-full" alt="">
             </div>
         </Slide>
-
     </Carousel>
 </template>
   
@@ -45,7 +44,7 @@ const breakpoints = {
 }
 
 .carousel__pagination-item .carousel__pagination-button {
-    @apply bg-gray-700 md:w-18 w-12 sm:mx-4 mx-1.5
+    @apply bg-gray-800 md:w-16 w-12 sm:mx-3 mx-1.5
 }
 
 .carousel__pagination-item .carousel__pagination-button--active {

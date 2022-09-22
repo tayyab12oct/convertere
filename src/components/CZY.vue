@@ -2,7 +2,7 @@
     <div class="relative md:pt-20 lg:pb-20 bg-gray-200 md:bg-transparent overflow-x-hidden">
         <img src="../assets/mid-round-bg.png" class="absolute border top-0 inset-0 w-full h-full hidden md:block" alt="Gradient" />
         <div className="max-w-6xl w-full mx-auto flex lg:flex-row flex-col items-start justify-between relative">
-            <div class="max-w-3xl lg:px-20 px-5 lg:py-20 md:pb-24 py-20 relative z-30">
+            <div class="max-w-3xl lg:pr-10 lg:pl-20 px-5 lg:py-20 md:pb-24 py-20 relative z-30">
                 <p class="md:text-xl text-lg pb-8 uppercase text-gray-600">Czy wiesz że</p>
                 <p
                     className="text-primary-100 lg:text-4xl md:text-3xl text-xl tracking-wide font-semibold lg:leading-10 lg:pr-10 xl:pr-0">
@@ -15,15 +15,15 @@
                 </p>
                 <div class="grid md:grid-cols-2 gap-18 pt-14">
                     <div class="" v-for="v in data" :key="v">
-                        <p class="md:text-xl text-lg pb-2 text-gray-600">{{v.title}}</p>
-                        <p class="md:text-6xl text-4xl font-bold text-secondary-300 pb-5">{{v.span}}</p>
+                        <p class="md:text-xl text-lg pb-2 text-primary-100 tracking-wide">{{v.title}}</p>
+                        <p class="md:text-5xl text-4xl font-bold text-secondary-300 pb-5">{{v.span}}</p>
                         <div class="bg-primary-100 w-full h-3">
                             <div class="bg-secondary-300 h-full" :style="{width: v.width}"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="xl:-mr-44 -ml-14 pl-4 -mt-20 relative z-30 hidden lg:block">
+            <div className="xl:-mr-44 -mt-14 relative z-30 hidden lg:block">
                 <img src="../assets/side.png" class="" alt="HeaderImg">
             </div>
         </div>

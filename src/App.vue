@@ -1,20 +1,22 @@
 <template>
-  <div class="">
+  <div class="overflow-x-hidden">
     <Header />
     <HeaderSection />
     <div class="text-center md:pb-32 pb-8 px-5 lg:px-0 relative">
       <img src="./assets/normobaria.png" alt="normobaria" class="absolute left-0 w-56 top-0 hidden xl:block" />
-      <p class="text-primary-100 text-xl tracking-wide uppercase">Jak działa Normobaria</p>
-      <hr class="bg-secondary-200 w-32 p-0.5 mx-auto my-7 border-1 border-transparent" />
-      <p
-        class="text-primary-100 font-semibold lg:text-4xl md:text-3xl text-xl max-w-5xl mx-auto w-full lg:leading-[2.85rem] md:leading-10 pt-4">
-        Warunki w
-        komorze sprzyjają optymalnemu
-        natlenieniu organizmu człowieka. Tlen jest łatwiej uwalniany
-        z hemoglobiny oraz rozpuszczony w osoczu krwi. <br /> Wodór obecny w większym stężeniu działa
-        antyoksydacyjnie,
-        dezaktywuje wolne rodniki i korzystne wpływa
-        w terapii wielu chorób.</p>
+      <img src="./assets/right-bars.png" alt="right-bars" class="absolute right-0 w-32 top-1/2 hidden xl:block" />
+      <div class="relative">
+        <p class="text-primary-100 text-xl tracking-wide uppercase">Jak działa Normobaria</p>
+        <hr class="bg-secondary-200 w-32 p-0.5 mx-auto my-7 border-1 border-transparent" />
+        <p
+          class="text-primary-100 font-semibold lg:text-4xl md:text-3xl text-xl max-w-5xl mx-auto w-full lg:leading-[2.85rem] md:leading-10 pt-4">
+          Warunki w
+          komorze sprzyjają optymalnemu
+          natlenieniu organizmu człowieka. Tlen jest łatwiej uwalniany
+          <br />z hemoglobiny oraz rozpuszczony w osoczu krwi. <br /> Wodór obecny w większym stężeniu działa
+          antyoksydacyjnie, dezaktywuje wolne rodniki i korzystne wpływa <br />w terapii wielu chorób.
+        </p>
+      </div>
     </div>
     <CZY />
     <Tabs />
@@ -22,8 +24,9 @@
       <Slider />
     </div>
     <Services />
-    <div class="bg-gray-250 py-40">
+    <div class="bg-gray-250 md:pt-36 py-28 relative">
       <Cennik />
+      <img src="./assets/tio.png" alt="tio" class="absolute inset-x-0 min-w-[110%] bottom-72 -mx-22 hidden xl:block" />
     </div>
     <Newsletter />
     <Contact />
