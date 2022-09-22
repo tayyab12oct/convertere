@@ -14,7 +14,7 @@
     <div class="relative">
         <img src="../assets/mid-bg.png" alt="midBG" class="absolute inset-x-0 top-0 w-full hidden md:block" />
         <div class="lg:px-12 px-5 xl:pt-16 2xl:pt-42 lg:pt-20 md:pt-0 pt-12 max-w-6xl w-full mx-auto relative z-30">
-            <p class="text-primary-100 text-xl tracking-wide text-center lg:pt-0 md:pt-16 uppercase">PROMOCJA MIESIĄCA
+            <p class="text-primary-100 text-xl tracking-wide text-center lg:pt-0 2xl:pt-0 xl:pt-10 md:pt-16 uppercase">PROMOCJA MIESIĄCA
             </p>
             <p
                 class="text-center md:text-white text-secondary-400 lg:text-4xl md:text-3xl text-2xl lg:py-3 py-2 font-bold">
