@@ -33,7 +33,7 @@ const breakpoints = {
   
 <style scope>
 .carousel__item {
-    @apply xl:h-[535px] md:h-[400px] h-[450px];
+    @apply 2xl:h-auto xl:h-[535px] md:h-[400px] h-[450px];
 }
 
 .carousel__slide {
