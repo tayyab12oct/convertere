@@ -5,7 +5,7 @@
         </template>
         <Slide v-for="slide in 5" :key="slide">
             <div class="carousel__item rounded-2xl shadow-lg w-full overflow-hidden">
-                <img src="../assets/czy.jpeg" class="w-full h-full" alt="">
+                <img src="../assets/slider/mid.png" class="w-full h-full" alt="">
             </div>
         </Slide>
 

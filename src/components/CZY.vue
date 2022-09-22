@@ -1,6 +1,7 @@
 <template>
-    <div class="relative bg-gray-200 lg:pb-20 rounded-tr-[50%]">
-        <div className="max-w-6xl w-full mx-auto flex lg:flex-row flex-col items-start justify-between">
+    <div class="relative pt-20 lg:pb-20 rounded-tr-[50%]">
+        <img src="../assets/mid-round-bg.png" class="absolute border top-0 inset-0 w-full h-full" alt="Gradient" />
+        <div className="max-w-6xl w-full mx-auto flex lg:flex-row flex-col items-start justify-between relative">
             <div class="max-w-3xl md:px-20 px-5 lg:py-20 md:pb-24 py-20 relative z-30">
                 <p class="md:text-xl text-lg pb-8 uppercase text-gray-600">Czy wiesz że</p>
                 <p
@@ -8,7 +9,8 @@
                     W komorze normobarycznej panuje podwyższone ciśnienie 1500 hpa, dla porównania ciśnienie w
                     atmosferze ziemskiej wynosi około 1000 hpa.
                 </p>
-                <p className="text-primary-100 lg:text-4xl md:text-3xl text-xl tracking-wide font-semibold md:pt-18 pt-12">
+                <p
+                    className="text-primary-100 lg:text-4xl md:text-3xl text-xl tracking-wide font-semibold md:pt-18 pt-12">
                     Normobaria w liczbach:
                 </p>
                 <div class="grid md:grid-cols-2 gap-18 pt-14">
@@ -21,8 +23,8 @@
                     </div>
                 </div>
             </div>
-            <div className="xl:-mr-56 -ml-20 -mt-20 relative z-30 hidden lg:block">
-                <img src="../assets/czy.jpeg" class="" alt="HeaderImg">
+            <div className="xl:-mr-44 -ml-14 pl-4 -mt-20 relative z-30 hidden lg:block">
+                <img src="../assets/side.png" class="" alt="HeaderImg">
             </div>
         </div>
     </div>

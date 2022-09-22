@@ -24,6 +24,7 @@ module.exports = {
         300: '#ccd32f',
         400: '#cbd22f',
         500: '#E6E897',
+        600:"#e5e897"
       },
       black: colors.black,
       white: colors.white,
@@ -33,6 +34,7 @@ module.exports = {
         100: '#EFEFEF',
         150: '#cecece',
         200: '#F8F8F8',
+        250: '#F5F5F5',
         300: '#E0E0E1',
         400: '#e1e1e1',
         600: '#606060',
