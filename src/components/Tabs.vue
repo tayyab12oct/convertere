@@ -1,5 +1,5 @@
 <template>
-    <div className="lg:px-9 md:px-12 px-5 lg:py-28 md:py-12 py-10 max-w-5xl w-full mx-auto">
+    <div className="lg:px-9 px-5 lg:py-28 md:py-12 py-10 max-w-5xl w-full mx-auto">
         <ul class="flex md:space-x-12 space-x-6 lg:pb-16 md:pb-10 pb-6">
             <li class="cursor-pointer md:text-3xl sm:text-xl text-sm font-bold pb-1 transition-all border-b-4 border-transparent"
                 v-on:click="toggleTabs(1)" v-bind:class="{
@@ -27,7 +27,7 @@
           hidden: openTab !== 1,
           block: openTab === 1,
         }">
-            <p class="pr-7 text-gray-600 md:text-xl text-md">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <p class="pr-7 text-gray-600 md:text-xl text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Molestias
                 vel at quo esse sit dolore
                 voluptatibus quasi error accusantium, deleniti delectus maiores eveniet quas, molestiae sed harum quae
@@ -43,7 +43,7 @@
           hidden: openTab !== 2,
           block: openTab === 2,
         }">
-            <p class="pr-7 text-gray-600 md:text-xl text-md">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <p class="pr-7 text-gray-600 md:text-xl text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Molestias
                 vel at quo esse sit dolore
                 voluptatibus quasi error accusantium, deleniti delectus maiores eveniet quas, molestiae sed harum quae
@@ -59,7 +59,7 @@
           hidden: openTab !== 3,
           block: openTab === 3,
         }">
-            <p class="pr-7 text-gray-600 md:text-xl text-md">Do wizyty w komorze normobarycznej nie trzeba się
+            <p class="pr-7 text-gray-600 md:text-xl text-sm">Do wizyty w komorze normobarycznej nie trzeba się
                 specjalnie przygotowywać. Jeśli pacjent ma obawy bądź wątpliwości warto wspomóc się szeroko dostępną
                 wiedzą na temat normo barii. Warto także zadzwonić do nas chętnie odpowiemy na nurtujące Państwa
                 pytania, rozwiejemy wątpliwości.

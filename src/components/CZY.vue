@@ -1,8 +1,8 @@
 <template>
-    <div class="relative pt-20 lg:pb-20 rounded-tr-[50%]">
-        <img src="../assets/mid-round-bg.png" class="absolute border top-0 inset-0 w-full h-full" alt="Gradient" />
+    <div class="relative md:pt-20 lg:pb-20 bg-gray-200 md:bg-transparent overflow-x-hidden">
+        <img src="../assets/mid-round-bg.png" class="absolute border top-0 inset-0 w-full h-full hidden md:block" alt="Gradient" />
         <div className="max-w-6xl w-full mx-auto flex lg:flex-row flex-col items-start justify-between relative">
-            <div class="max-w-3xl md:px-20 px-5 lg:py-20 md:pb-24 py-20 relative z-30">
+            <div class="max-w-3xl lg:px-20 px-5 lg:py-20 md:pb-24 py-20 relative z-30">
                 <p class="md:text-xl text-lg pb-8 uppercase text-gray-600">Czy wiesz że</p>
                 <p
                     className="text-primary-100 lg:text-4xl md:text-3xl text-xl tracking-wide font-semibold lg:leading-10 lg:pr-10 xl:pr-0">

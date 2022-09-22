@@ -2,7 +2,7 @@
   <div class="">
     <Header />
     <HeaderSection />
-    <div class="text-center pb-32 px-5 lg:px-0 relative">
+    <div class="text-center md:pb-32 pb-8 px-5 lg:px-0 relative">
       <img src="./assets/normobaria.png" alt="normobaria" class="absolute left-0 w-56 top-0 hidden xl:block" />
       <p class="text-primary-100 text-xl tracking-wide uppercase">Jak działa Normobaria</p>
       <hr class="bg-secondary-200 w-32 p-0.5 mx-auto my-7 border-1 border-transparent" />

@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-primary-100">
-    <div class="md:px-12 px-5 md:py-8 pb-4 pt-10 max-w-6xl w-full mx-auto text-gray-400">
+    <div class="lg:px-12 px-5 md:py-8 pb-4 pt-10 max-w-6xl w-full mx-auto text-gray-400">
       <div class="grid lg:grid-cols-2 md:grid-cols-3 py-3">
         <div class="md:col-span-2 lg:col-span-1 grid md:grid-rows-5 grid-cols-2 md:grid-flow-col gap-3 md:pb-8">
           <p class="font-bold text-sm">Ważne Informacje</p>
@@ -9,7 +9,7 @@
             {{v.name}}
           </a>
         </div>
-        <div class="flex space-x-4 md:justify-end justify-center">
+        <div class="flex space-x-4 md:justify-end justify-center pt-8 md:pt-0">
           <a v-for="item in social" :key="item.name" :href="item.href"
             class="bg-gray-400 lg:h-10 h-8 lg:w-10 w-8 rounded-full flex items-center justify-center text-primary-100">
             <component :is="item.icon" class="lg:h-7 h-5 lg:w-7 w-5" aria-hidden="true" />

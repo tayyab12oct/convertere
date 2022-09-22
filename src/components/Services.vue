@@ -1,5 +1,5 @@
 <template>
-    <div class="relative -mt-38 pt-40 z-20">
+    <div class="relative -mt-38 md:pt-40 pt-32 z-20">
         <img src="../assets/blue-bg.png" class="absolute inset-0 w-full h-full" alt="Gradient" />
         <div className="relative lg:px-9 px-5 lg:py-22 md:py-12 py-10 max-w-6xl w-full mx-auto">
             <p className="text-white lg:text-6xl text-3xl tracking-wide font-bold text-center">

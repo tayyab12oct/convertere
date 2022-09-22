@@ -1,6 +1,6 @@
 <template>
   <Popover class="bg-white shadow-md sticky top-0 z-40">
-    <div class="md:px-12 px-5 md:py-6 py-4 max-w-6xl w-full mx-auto flex items-center justify-between">
+    <div class="lg:px-12 px-5 md:py-6 py-4 max-w-6xl w-full mx-auto flex items-center justify-between">
       <div class="flex justify-start lg:w-0 lg:flex-1">
         <img src="../assets/logo.png" class="lg:h-12 h-9" alt="Logo" />
       </div>
