@@ -32,11 +32,11 @@ const breakpoints = {
   
 <style scope>
 .carousel__item {
-    @apply xl:h-auto lg:h-[535px] md:h-[400px];
+    @apply xl:h-auto lg:h-auto lg:border border-red-500 md:h-[400px];
 }
 
 .carousel__slide {
-    @apply px-8 xl:h-[65vh] lg:h-[55vh] sm:h-[60vh] md:h-[55vh] md:mt-14 mt-5;
+    @apply px-8 xl:h-[65vh] lg:h-auto sm:h-[60vh] md:h-[55vh] md:mt-14 mt-5;
 }
 
 .carousel__pagination {

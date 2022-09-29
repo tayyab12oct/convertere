@@ -12,7 +12,7 @@
                         <img :src="v.src" :class="v.imgClass" alt="icon" />
                     </div>
                     <p
-                        class="font-bold text-primary-100 lg:px-5.5 px-3 lg:-mx-5.5 -mx-3 pt-12 mb-4 leading-2 text-2xl border-b-[20px] border-secondary-600">
+                        class="font-bold text-primary-100 lg:px-5.5 px-3 lg:-mx-5.5 -mx-3 pt-12 mb-4 lg:leading-2 md:leading-6 leading-2 lg:text-2xl md:text-xl text-lg border-b-[20px] border-secondary-600">
                         {{v.title}}</p>
                     <p class="text-sm text-primary-100">{{v.desc}}</p>
                 </div>
